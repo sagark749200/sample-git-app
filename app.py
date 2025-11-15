@@ -21,6 +21,8 @@ st.sidebar.markdown("""
 - home
 - about
 - career
+- contact
+- login
 """)
 
 
