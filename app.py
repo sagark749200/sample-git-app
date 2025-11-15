@@ -1,4 +1,6 @@
 import streamlit as st
+from click import option
+
 st.title('CampusX')
 
 col1, col2 = st.columns(2)
@@ -26,6 +28,8 @@ st.sidebar.markdown("""
 """)
 
 st.sidebar.selectbox('Select one',['teacher','student'])
-st.sidebar.button('select')
+btn = st.sidebar.button('select')
 
+if btn:
+    st.title('hello' + option)
 
