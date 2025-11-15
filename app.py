@@ -14,5 +14,13 @@ st.subheader('Data Science and machine learning')
 st.subheader('Data Analysis')
 st.subheader('Python')
 st.subheader('SQL')
+st.subheader('DSA')
+
+st.sidebar.title('Menu')
+st.sidebar.markdown("""
+- home
+- about
+- career
+""")
 
 
