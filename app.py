@@ -17,6 +17,8 @@ st.subheader('Data Analysis')
 st.subheader('Python')
 st.subheader('SQL')
 st.subheader('DSA')
+st.subheader('numpy')
+
 
 st.sidebar.title('Menu')
 st.sidebar.markdown("""
